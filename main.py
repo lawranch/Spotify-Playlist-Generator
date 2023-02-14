@@ -16,8 +16,8 @@ top_100 = [title.text.strip() for title in titles]
 
 # ---------------------------- SPOTIFY PLAYLIST ---------------------------- #
 
-SPOTIPY_CLIENT_ID = "97ff0442d90443418541cf4eb46e14ec"
-SPOTIPY_CLIENT_SECRET = "720071fad25f41fa8a422cde3b7d061b"
+SPOTIPY_CLIENT_ID = CLIENT_ID
+SPOTIPY_CLIENT_SECRET = CLIENT_SECRET
 SPOTIPY_REDIRECT_URI = "http://localhost:8888/callback"
 
 sp = spotipy.Spotify(
