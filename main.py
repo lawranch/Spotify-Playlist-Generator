@@ -45,6 +45,8 @@ for song in top_100:
     except IndexError:
         print(f"Skipped {song}, doesn't exist in Spotify.")
 
+print("Playlist successfully created!")
+
 # ---------------------------- ADD SONGS TO PLAYLIST ---------------------------- #
 playlist = sp.user_playlist_create(user=user_id, name=f"{date} Billboard 100", public=False)
 
